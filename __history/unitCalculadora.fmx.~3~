@@ -1,0 +1,298 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 531
+  ClientWidth = 344
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lt_buttons: TLayout
+    Position.X = 8.000000000000000000
+    Position.Y = 149.000000000000000000
+    Size.Width = 328.000000000000000000
+    Size.Height = 377.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btn_zero: TButton
+      StyledSettings = [Family, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 301.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = '0'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      object btn_ponto: TButton
+        StyledSettings = [Family, FontColor]
+        Position.X = 80.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = ','
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btn_pontoClick
+        object btn_result: TButton
+          StyledSettings = [Family, FontColor]
+          Position.X = 80.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '='
+          TextSettings.Font.Size = 18.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          OnClick = btn_resultClick
+          object btn_mais: TButton
+            StyledSettings = [Family, FontColor]
+            Position.X = 80.000000000000000000
+            Size.Width = 73.000000000000000000
+            Size.Height = 65.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = '+'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            OnClick = btn_maisClick
+          end
+        end
+      end
+      object btn_um: TButton
+        StyledSettings = [Family, FontColor]
+        Position.Y = -72.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '1'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        OnClick = btn_umClick
+        object btn_dois: TButton
+          StyledSettings = [Family, FontColor]
+          Position.X = 80.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = '2'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          OnClick = btn_doisClick
+          object btn_tres: TButton
+            StyledSettings = [Family, FontColor]
+            Position.X = 80.000000000000000000
+            Size.Width = 73.000000000000000000
+            Size.Height = 65.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = '3'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            OnClick = btn_tresClick
+            object btn_menos: TButton
+              StyledSettings = [Family, FontColor]
+              Position.X = 80.000000000000000000
+              Size.Width = 73.000000000000000000
+              Size.Height = 65.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = '-'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              OnClick = btn_menosClick
+            end
+          end
+        end
+        object btn_quatro: TButton
+          StyledSettings = [Family, FontColor]
+          Position.Y = -72.000000000000000000
+          Size.Width = 73.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = '4'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          OnClick = btn_quatroClick
+          object btn_cinco: TButton
+            StyledSettings = [Family, FontColor]
+            Position.X = 80.000000000000000000
+            Size.Width = 73.000000000000000000
+            Size.Height = 65.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+            Text = '5'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            OnClick = btn_cincoClick
+            object btn_seis: TButton
+              StyledSettings = [Family, FontColor]
+              Position.X = 80.000000000000000000
+              Size.Width = 73.000000000000000000
+              Size.Height = 65.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = '6'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              OnClick = btn_seisClick
+              object btn_multi: TButton
+                StyledSettings = [Family, FontColor]
+                Position.X = 80.000000000000000000
+                Size.Width = 73.000000000000000000
+                Size.Height = 65.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                Text = 'x'
+                TextSettings.Font.Size = 14.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                OnClick = btn_multiClick
+              end
+            end
+          end
+          object btn_sete: TButton
+            StyledSettings = [Family, FontColor]
+            Position.Y = -72.000000000000000000
+            Size.Width = 73.000000000000000000
+            Size.Height = 65.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = '7'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            OnClick = btn_seteClick
+            object btn_oito: TButton
+              StyledSettings = [Family, FontColor]
+              Position.X = 80.000000000000000000
+              Size.Width = 73.000000000000000000
+              Size.Height = 65.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+              Text = '8'
+              TextSettings.Font.Size = 14.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              OnClick = btn_oitoClick
+              object btn_nove: TButton
+                StyledSettings = [Family, FontColor]
+                Position.X = 80.000000000000000000
+                Size.Width = 73.000000000000000000
+                Size.Height = 65.000000000000000000
+                Size.PlatformDefault = False
+                TabOrder = 0
+                Text = '9'
+                TextSettings.Font.Size = 14.000000000000000000
+                TextSettings.Font.StyleExt = {00070000000000000004000000}
+                OnClick = btn_noveClick
+                object btn_dividir: TButton
+                  StyledSettings = [Family, FontColor]
+                  Position.X = 80.000000000000000000
+                  Size.Width = 73.000000000000000000
+                  Size.Height = 65.000000000000000000
+                  Size.PlatformDefault = False
+                  TabOrder = 0
+                  Text = '/'
+                  TextSettings.Font.Size = 14.000000000000000000
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  OnClick = btn_dividirClick
+                  object btn_apagar: TButton
+                    StyledSettings = [Family, FontColor]
+                    Position.X = -240.000000000000000000
+                    Position.Y = -73.000000000000000000
+                    Size.Width = 151.000000000000000000
+                    Size.Height = 65.000000000000000000
+                    Size.PlatformDefault = False
+                    StyleLookup = 'priortoolbutton'
+                    TabOrder = 2
+                    Text = '/'
+                    TextSettings.Font.Size = 14.000000000000000000
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    OnClick = btn_apagarClick
+                  end
+                  object btn_cc: TButton
+                    StyledSettings = [Family, FontColor]
+                    Position.X = -81.000000000000000000
+                    Position.Y = -73.000000000000000000
+                    Size.Width = 73.000000000000000000
+                    Size.Height = 65.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 1
+                    Text = 'CE'
+                    TextSettings.Font.Size = 14.000000000000000000
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    OnClick = btn_ccClick
+                  end
+                  object btn_c: TButton
+                    StyledSettings = [Family, FontColor]
+                    Position.Y = -73.000000000000000000
+                    Size.Width = 74.000000000000000000
+                    Size.Height = 65.000000000000000000
+                    Size.PlatformDefault = False
+                    TabOrder = 0
+                    Text = 'C'
+                    TextSettings.Font.Size = 14.000000000000000000
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                    OnClick = btn_cClick
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+  object pnl_valores: TPanel
+    Position.X = 8.000000000000000000
+    Position.Y = 21.000000000000000000
+    Size.Width = 328.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object lt_valores: TLayout
+      Size.Width = 329.000000000000000000
+      Size.Height = 120.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lb_n1: TLabel
+        StyledSettings = [Family, FontColor]
+        Position.X = 8.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+        object lb_operador: TLabel
+          StyledSettings = [Family, FontColor]
+          Position.X = 152.000000000000000000
+          Size.Width = 33.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 22.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = '.'
+          TabOrder = 0
+          object lb_n2: TLabel
+            StyledSettings = [Family, FontColor]
+            Position.X = 72.000000000000000000
+            Size.Width = 89.000000000000000000
+            Size.Height = 65.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Size = 20.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.HorzAlign = Center
+            TabOrder = 0
+          end
+        end
+      end
+    end
+  end
+end

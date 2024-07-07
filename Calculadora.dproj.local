@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/07/07 14:08:14.271,=C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/07 16:01:01.629,C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\unitCalculadora.pas=C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/07 16:01:01.629,C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\unitCalculadora.fmx=C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/07/07 16:07:58.569,C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\Calculadora.dproj=C:\Users\alydo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
